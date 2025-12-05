@@ -94,7 +94,7 @@ fun_instbot() {
     echo -e "\n\033[1;32m3° \033[1;37m- \033[1;33mBOT \033[1;37m@SSHPLUS_BOT \033[1;33mE PEGUE SEU ID \033[1;31mOPCAO: \033[1;37m/id\033[0m"
     echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[1;32m"
     echo ""
-    read -p "DEVAM ETMEK İSTİYOR MUSUNUZ ? [s/n]: " -e -i s resposta
+    read -p "DEVAM ETMEK İSTİYOR MUSUNUZ ? [e/h]: " -e -i s resposta
     [[ "$resposta" = 's' ]] && {
         fun_botOnOff
     } || {
