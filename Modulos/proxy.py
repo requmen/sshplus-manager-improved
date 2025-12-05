@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 # encoding: utf-8
-# SSHPLUS By @Crazy_vpn
-import socket, threading, thread, select, signal, sys, time
+# SSHPlus Manager - Proxy Script
+# Geliştirici: @requmen
+# Ubuntu 22+ uyumlu
+import socket, threading, _thread as thread, select, signal, sys, time
 from os import system
 system("clear")
 #conexao
@@ -13,7 +15,7 @@ except:
 PASS = ''
 BUFLEN = 8196 * 8
 TIMEOUT = 60
-MSG = 'SSHPLUS'
+MSG = 'SSHPlus Manager by @requmen'
 COR = '<font color="null">'
 FTAG = '</font>'
 DEFAULT_HOST = '0.0.0.0:22'

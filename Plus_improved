@@ -3,7 +3,7 @@
 #=============================================================================
 # SSHPlus Manager - Geliştirilmiş Versiyon v39
 # Orijinal: CRAZY_VPN (@crazy_vpn)
-# Geliştirme: requmen
+# Geliştirici: @requmen
 # Tarih: 2025-12-05
 # Açıklama: SSH ve VPN yönetim aracı kurulum scripti
 #=============================================================================
@@ -360,7 +360,8 @@ show_completion() {
     echo -e "${GREEN}  menu${RESET}"
     echo ""
     echo -e "${CYAN}Daha fazla bilgi için:${RESET}"
-    echo -e "${WHITE}  GitHub: ${BLUE}https://github.com/${GITHUB_USER}/${GITHUB_REPO}${RESET}"
+    echo -e "${WHITE}  GitHub: https://github.com/${GITHUB_USER}/${GITHUB_REPO}${RESET}"
+    echo -e "${WHITE}  Twitter/X: @requmen${RESET}"
     echo ""
     echo -e "${YELLOW}Kurulum log dosyası: ${WHITE}${LOG_FILE}${RESET}"
     echo ""
