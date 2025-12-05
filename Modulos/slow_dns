@@ -28,7 +28,7 @@ installslowdns() {
     echo -ne "${GREEN}DESEJA CONTINUAR A INSTALACAO ? ${YELLOW}[s/n]:${SCOLOR} "
     read resp
     [[ "$resp" != @(s|sim|S|SIM) ]] && {
-        echo -e "\n${RED}Retornando...${SCOLOR}"
+        echo -e "\n${RED}Geri dönülüyor...${SCOLOR}"
         sleep 2
         conexao
     }
@@ -44,7 +44,7 @@ initslow() {
         echo -e "\n${RED}[${CYAN}1${RED}] ${YELLOW}PARAR O SLOWDNS${SCOLOR}"
         echo -e "${RED}[${CYAN}2${RED}] ${YELLOW}REMOVER O SLOWDNS${SCOLOR}"
         echo -e "${RED}[${CYAN}3${RED}] ${YELLOW}EXIBIR INFORMACOES${SCOLOR}"
-        echo -e "${RED}[${CYAN}0${RED}] ${YELLOW}VOLTAR${SCOLOR}"
+        echo -e "${RED}[${CYAN}0${RED}] ${YELLOW}GERİ DÖN${SCOLOR}"
         echo -ne "\n${GREEN}INFORME UMA OPCAO${SCOLOR}: "
         read op
         if [[ "$op" == '1' ]]; then
@@ -72,7 +72,7 @@ initslow() {
             echo -e "\n${YELLOW}NAMESERVER(NS)${SCOLOR}: $nameserver"
             echo -e "${YELLOW}CHAVE PUBLICA${SCOLOR}: $keypub"
             echo -e "\n${GREEN}COMANDO TERMUX${SCOLOR}: ${tmx} ${nameserver} ${keypub}"
-            echo -ne "\n${RED}ENTER${YELLOW} para retornar ao${GREEN} MENU!${SCOLOR}"
+            echo -ne "\n${RED}ENTER tuşuna basarak${YELLOW} para retornar ao${GREEN} MENU!${SCOLOR}"
             read
             conexao
         elif [[ "$op" == '0' ]]; then
@@ -97,7 +97,7 @@ initslow() {
         echo -e "${RED}[${CYAN}2${RED}] ${YELLOW}SLOWDNS SSL${SCOLOR}"
         echo -e "${RED}[${CYAN}3${RED}] ${YELLOW}SLOWDNS SSLH${SCOLOR}"
         echo -e "${RED}[${CYAN}4${RED}] ${YELLOW}SLOWDNS OPENVPN${SCOLOR}"
-        echo -e "${RED}[${CYAN}0${RED}] ${YELLOW}VOLTAR${SCOLOR}"
+        echo -e "${RED}[${CYAN}0${RED}] ${YELLOW}GERİ DÖN${SCOLOR}"
         echo -ne "\n${GREEN}INFORME UMA OPCAO${SCOLOR}: "
         read opcc
         if [[ "$opcc" == '1' ]]; then
@@ -150,7 +150,7 @@ initslow() {
         tmx='curl -sO https://sshplus.net/scripts/slowdns && chmod +x slowdns && ./slowdns'
         echo -e "\n${GREEN}SLOWDNS ATIVADO !${SCOLOR}"
         echo -e "\n${YELLOW}COMANDO TERMUX${SCOLOR}: ${tmx} ${ns} ${keypub}"
-        echo -ne "\n${RED}ENTER${YELLOW} para retornar ao${GREEN} MENU!${SCOLOR}"
+        echo -ne "\n${RED}ENTER tuşuna basarak${YELLOW} para retornar ao${GREEN} MENU!${SCOLOR}"
         read
         conexao
     }

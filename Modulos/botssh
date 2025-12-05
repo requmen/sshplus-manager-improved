@@ -64,7 +64,7 @@ fun_botOnOff() {
             cd $HOME
         }
         fun_bar 'fun_bot1'
-        [[ $(ps x | grep "bot_plus" | grep -v grep | wc -l) != '0' ]] && echo -e "\n\033[1;32m BOT SSHPLUS ATIVADO !\033[0m" || echo -e "\n\033[1;31m ERRO! REANALISE SUAS INFORMACOES\033[0m"
+        [[ $(ps x | grep "bot_plus" | grep -v grep | wc -l) != '0' ]] && echo -e "\n\033[1;32m BOT SSHPLUS ATIVADO !\033[0m" || echo -e "\n\033[1;31m HATA! REANALISE SUAS INFORMACOES\033[0m"
         sleep 2
         menu
     } || {
@@ -94,11 +94,11 @@ fun_instbot() {
     echo -e "\n\033[1;32m3° \033[1;37m- \033[1;33mBOT \033[1;37m@SSHPLUS_BOT \033[1;33mE PEGUE SEU ID \033[1;31mOPCAO: \033[1;37m/id\033[0m"
     echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[1;32m"
     echo ""
-    read -p "DESEJA CONTINUAR ? [s/n]: " -e -i s resposta
+    read -p "DEVAM ETMEK İSTİYOR MUSUNUZ ? [s/n]: " -e -i s resposta
     [[ "$resposta" = 's' ]] && {
         fun_botOnOff
     } || {
-        echo -e "\n\033[1;31mRetornando...\033[0m"
+        echo -e "\n\033[1;31mGeri dönülüyor...\033[0m"
         sleep 2
         menu
     }

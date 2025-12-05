@@ -185,13 +185,13 @@ menu() {
             20)
                 clear
                 addhost
-                echo -ne "\n${RED}ENTER ${YELLOW}tuşuna basarak ${GREEN}MENÜYE${RESET} dönün!"; read
+                echo -ne "\n${RED}ENTER tuşuna basarak ${YELLOW}tuşuna basarak ${GREEN}MENÜYE${RESET} dönün!"; read
                 menu2
                 ;;
             21)
                 clear
                 delhost
-                echo -ne "\n${RED}ENTER ${YELLOW}tuşuna basarak ${GREEN}MENÜYE${RESET} dönün!"; read
+                echo -ne "\n${RED}ENTER tuşuna basarak ${YELLOW}tuşuna basarak ${GREEN}MENÜYE${RESET} dönün!"; read
                 menu2
                 ;;
             22)
@@ -311,12 +311,12 @@ menu() {
             1|01)
                 clear
                 criarusuario
-                echo -ne "\n${RED}ENTER ${YELLOW}tuşuna basarak ${GREEN}MENÜYE${RESET} dönün!"; read
+                echo -ne "\n${RED}ENTER tuşuna basarak ${YELLOW}tuşuna basarak ${GREEN}MENÜYE${RESET} dönün!"; read
                 ;;
             2|02)
                 clear
                 criarteste
-                echo -ne "\n${RED}ENTER ${YELLOW}tuşuna basarak ${GREEN}MENÜYE${RESET} dönün!"; read
+                echo -ne "\n${RED}ENTER tuşuna basarak ${YELLOW}tuşuna basarak ${GREEN}MENÜYE${RESET} dönün!"; read
                 ;;
             3|03)
                 clear
@@ -326,7 +326,7 @@ menu() {
             4|04)
                 clear
                 sshmonitor
-                echo -ne "\n${RED}ENTER ${YELLOW}tuşuna basarak ${GREEN}MENÜYE${RESET} dönün!"; read
+                echo -ne "\n${RED}ENTER tuşuna basarak ${YELLOW}tuşuna basarak ${GREEN}MENÜYE${RESET} dönün!"; read
                 ;;      
             5|05)
                 clear
@@ -346,21 +346,21 @@ menu() {
             8|08)
                 clear
                 expcleaner
-                echo -ne "\n${RED}ENTER ${YELLOW}tuşuna basarak ${GREEN}MENÜYE${RESET} dönün!"; read
+                echo -ne "\n${RED}ENTER tuşuna basarak ${YELLOW}tuşuna basarak ${GREEN}MENÜYE${RESET} dönün!"; read
                 ;;
             9|09)
                 clear
                 infousers
-                echo -ne "\n${RED}ENTER ${YELLOW}tuşuna basarak ${GREEN}MENÜYE${RESET} dönün!"; read
+                echo -ne "\n${RED}ENTER tuşuna basarak ${YELLOW}tuşuna basarak ${GREEN}MENÜYE${RESET} dönün!"; read
                 ;;
             10)
                 clear
                 conexao
-                echo -ne "\n${RED}ENTER ${YELLOW}tuşuna basarak ${GREEN}MENÜYE${RESET} dönün!"; read
+                echo -ne "\n${RED}ENTER tuşuna basarak ${YELLOW}tuşuna basarak ${GREEN}MENÜYE${RESET} dönün!"; read
                 ;;
             11)
                 velocity
-                echo -ne "\n${RED}ENTER ${YELLOW}tuşuna basarak ${GREEN}MENÜYE${RESET} dönün!"; read
+                echo -ne "\n${RED}ENTER tuşuna basarak ${YELLOW}tuşuna basarak ${GREEN}MENÜYE${RESET} dönün!"; read
                 ;;
             12)
                 clear
@@ -375,12 +375,12 @@ menu() {
             14)
                 clear
                 otimizar
-                echo -ne "\n${RED}ENTER ${YELLOW}tuşuna basarak ${GREEN}MENÜYE${RESET} dönün!"; read
+                echo -ne "\n${RED}ENTER tuşuna basarak ${YELLOW}tuşuna basarak ${GREEN}MENÜYE${RESET} dönün!"; read
                 ;;
             15)
                 clear
                 userbackup
-                echo -ne "\n${RED}ENTER ${YELLOW}tuşuna basarak ${GREEN}MENÜYE${RESET} dönün!"; read
+                echo -ne "\n${RED}ENTER tuşuna basarak ${YELLOW}tuşuna basarak ${GREEN}MENÜYE${RESET} dönün!"; read
                 ;;
             16)
                 [[ $(ps x | grep "limiter"|grep -v grep | wc -l) = '0' ]] && limit1 || limit2
@@ -391,7 +391,7 @@ menu() {
             18)
                 clear
                 detalhes
-                echo -ne "\n${RED}ENTER ${YELLOW}tuşuna basarak ${GREEN}MENÜYE${RESET} dönün!"; read
+                echo -ne "\n${RED}ENTER tuşuna basarak ${YELLOW}tuşuna basarak ${GREEN}MENÜYE${RESET} dönün!"; read
                 ;;
             19)
                 menu2
