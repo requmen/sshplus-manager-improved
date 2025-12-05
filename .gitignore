@@ -1,0 +1,48 @@
+# Geçici dosyalar
+*.tmp
+*.log
+*.swp
+*.swo
+*~
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+
+# Kullanıcı veritabanları
+usuarios.db
+*.db
+
+# Yedek dosyalar
+*.bak
+*.backup
+*_backup
+
+# SSH anahtarları
+*.pem
+*.key
+id_rsa*
+
+# Şifreler ve hassas bilgiler
+passwords.txt
+*.conf.backup
+
+# Cache ve geçici dizinler
+cache/
+tmp/
+temp/
+.cache/
+
+# Editor dosyaları
+.vscode/
+.idea/
+*.sublime-*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
